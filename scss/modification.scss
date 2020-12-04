@@ -1,0 +1,31 @@
+@import 'color.scss';
+@import 'fonts.scss';
+@import 'mixins.scss';
+
+.mobile{
+	display:none;
+	justify-content:flex-end;
+	margin-top:5px;
+}
+.desktop{
+	display:flex;
+}
+.color{
+	background:$elements;
+}
+.block_center{
+	display:flex;
+	align-items:center;
+}
+.time{
+	font-size:15px;
+	color:$elements;
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+	.desktop,.search{
+		display:none;
+	}
+	.mobile{
+		display:flex;
+	}
+}
