@@ -1,6 +1,6 @@
 
 
-
+/*
 var one, num, sum, further, prevsum, prevnext; 
 var next = document.getElementById('next')
 var previous = document.getElementById('previous')
@@ -64,7 +64,7 @@ $(previous).on('click',function(){
 var time = setInterval(function(){
 	next.click()	
 },5000)
-/*
+
 $('.slider__point').on('click',function(){
 		let element = this.id;
 		alert(element);
@@ -76,3 +76,27 @@ $('.slider__point').on('click',function(){
 if(this.id == 'red'){
 	alert('red');
 */
+var element = document.getElementById('click');
+$('.navigation').hide();
+$('#twoSearch').hide()
+var click2 = 0
+element.onclick = function(){
+	click2++
+	$('#oneSearch').hide();
+	$('.navigation').show();
+	$('#twoSearch').show();
+	//$('.blockSearch').hide();
+	click = 0
+		if(click2 == 2){
+			$('.navigation').hide();
+			$('#twoSearch').hide();
+			click2 = 0;
+		}
+	$(window).resize(function() { 
+		if(document.body.clientWidth>750){
+			$('#twoSearch').hide();
+			$('.navigation').hide();
+			click2 = 0
+		}
+	})
+}
