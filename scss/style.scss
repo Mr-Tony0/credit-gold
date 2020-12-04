@@ -113,12 +113,14 @@ header,.navigation{
 		
 	}
 	&__button{
-		height:40px;
+		height:60px;
 		width:170px;
 		background:$elements;
 		color:$Light;
 		margin: 0 auto;
-		padding-top:2%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
 		font-size:18px;
 		font-family:$staticText;
 		border-radius:5px;
@@ -298,10 +300,16 @@ header,.navigation{
 	.headerCenter{
 		width:90%;
 	}
+	.general{
+		height:700px;
+	}
 }
 @media screen and (min-width: 600px) and (max-width: 1000px){
 	.headerCenter{
 		width:100%;
+	}
+	.general{
+		height:600px;
 	}
 }
 @media screen and (min-width: 850px) and (max-width: 950px){
@@ -313,6 +321,10 @@ header,.navigation{
 		&__ul{
 			font-size:15px;
 		}
+	}
+	.general{
+		height:500px;
+		
 	}
 }
 @media screen and (min-width: 750px) and (max-width: 850px){
@@ -326,9 +338,26 @@ header,.navigation{
 			font-size:13px;
 		}
 	}
-	
+	.general{
+		height:400px;
+		&__block{
+			height:100%;
+		}
+		&__title{
+			font-size:30px;
+		}
+		&__p{
+			font-size:16px;
+		}
+		&__button{
+			height:50px;
+			width:160px;
+			font-size:16px;
+		}
+	}
 	
 }
+
 @media screen and (min-width: 320px) and (max-width: 750px){
 	.headerCenter{
 		width:100%;
@@ -341,8 +370,30 @@ header,.navigation{
 			width:80%;
 		}
 	}
-	.slider{
+	.general{
+		height:400px;
+		&__block{
+			height:100%;
+		}
+		&__title{
+			font-size:30px;
+		}
+		&__p{
+			font-size:16px;
+		}
+		&__button{
+			height:50px;
+			width:160px;
+			font-size:16px;
+		}
+	}
+	
+}
+@media screen and (min-width: 500px) and (max-width: 600px){
+	
+	.general{
 		height:350px;
+		
 	}
 	
 }
