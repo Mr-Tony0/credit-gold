@@ -324,7 +324,9 @@ header,.navigation{
 	}
 	.general{
 		height:500px;
-		
+		&__block{
+			height:70%;
+		}
 	}
 }
 @media screen and (min-width: 750px) and (max-width: 850px){
@@ -341,7 +343,7 @@ header,.navigation{
 	.general{
 		height:400px;
 		&__block{
-			height:100%;
+			height:70%;
 		}
 		&__title{
 			font-size:30px;
@@ -373,7 +375,8 @@ header,.navigation{
 	.general{
 		height:400px;
 		&__block{
-			height:100%;
+			height:70%;
+			width:65%;
 		}
 		&__title{
 			font-size:30px;
@@ -393,26 +396,65 @@ header,.navigation{
 	
 	.general{
 		height:350px;
-		
+		&__block{
+			height:80%;
+		}
 	}
 	
 }
-@media screen and (min-width: 320px) and (max-width: 1550px){
-	.newFilms__button{
-		font-size:20px;
+@media screen and (min-width: 400px) and (max-width: 500px){
+	
+	.general{
+		height:300px;
+		&__block{
+			height:80%;
+		}
+		&__title{
+			font-size:25px;
+		}
+		&__p{
+			font-size:14px;
+		}
+		&__button{
+			height:40px;
+			width:150px;
+			font-size:14px;
+		}
 	}
+	
 }
-
-@media screen and (min-width: 750px) and (max-width: 1100px){
-	.newFilms{
-		&__element{
-			width:45%;
+@media screen and (min-width: 320px) and (max-width: 400px){
+	
+	.general{
+		height:230px;
+		&__block{
+			height:90%;
 		}
-		&__img{
-			width:70%;
+		&__title{
+			font-size:20px;
+		}
+		&__p{
+			font-size:12px;
+		}
+		&__button{
+			height:30px;
+			width:130px;
+			font-size:12px;
 		}
 	}
-	.slider{
-		height:500px;
+	
+}
+@media screen and (min-width: 320px) and (max-width: 500px){
+	
+	.logo{
+		&__img{
+			width:45.61px;
+			margin-top:3px;
+		}
+	}
+	.headerCenter{
+		&__click{
+			width:20px;
+		}
 	}
 }
