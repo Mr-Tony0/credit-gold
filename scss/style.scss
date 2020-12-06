@@ -514,6 +514,13 @@ header{
 			height:60%;
 		}
 	}
+	.about{
+		&__p{
+			width:100%;
+			font-size:16px;
+		}
+		//width:100%;
+	}
 }
 @media screen and (min-width: 500px) and (max-width: 600px){
 	
@@ -627,6 +634,13 @@ header{
 			width:80%;
 		}
 	}
+	.about{
+		&__p{
+			width:100%;
+			font-size:14px;
+		}
+		//width:100%;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 400px){
 	
@@ -697,6 +711,13 @@ header{
 		&__img{
 			width:80%;
 		}
+	}
+	.about{
+		&__p{
+			width:100%;
+			font-size:12px;
+		}
+		//width:100%;
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 500px){
