@@ -26,6 +26,15 @@
 	font-size:30px;
 	font-family:$textMenu;
 }
+.getButton{
+	background:transparent;
+	color:$elements;
+	border:2px solid $elements;
+	&:hover{
+		background:$elements;
+		color:$Light;
+	}
+}
 @media screen and (min-width: 320px) and (max-width: 750px){
 	.desktop{
 		display:none;

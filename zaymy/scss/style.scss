@@ -100,7 +100,7 @@ header{
 }
 
 .list{
-	height:1000px;
+	height:1500px;
 	width:80%;
 	margin:0 auto;
 	&__block{
@@ -111,10 +111,11 @@ header{
 		margin-top:70px;
 	}
 	&__aside{
-		height:80%;
-		width:18%;
+		height:60%;
+		width:17.5%;
 		background:$blockColorGreen;
 		box-shadow: 0 0 8px rgba(0,0,0,0.5);
+		padding-left:20px;
 	}
 	&__content{
 		width:80%;
@@ -123,7 +124,7 @@ header{
 	}
 	&__filter{
 		width:100%;
-		height:10%;
+		height:8%;
 		margin-bottom:15px;
 		background:$blockColorGreen;
 		display:flex;
@@ -159,6 +160,35 @@ header{
 		font-family:$staticText;
 	}
 	&__title{
+		font-family:$staticText;
+	}
+	&__row{
+		width:100%;
+		height:170px;
+		display:flex;
+		border-bottom:1px solid rgba(0,0,0,0.1)
+	}
+	&__element{
+		width:20%;
+		height:100%;
+		text-align:center;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		font-family:$staticText;
+	}
+}
+.name{
+	height:50px;
+	width:100%;
+	display:flex;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	&__element{
+		width:20%;
+		height:100%;
+		text-align:center;
+	}
+	&__p{
 		font-family:$staticText;
 	}
 }
