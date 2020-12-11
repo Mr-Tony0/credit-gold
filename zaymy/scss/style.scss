@@ -108,14 +108,16 @@ header{
 		height:100%;
 		display:flex;
 		justify-content:space-between;
+		margin-top:70px;
 	}
 	&__aside{
 		height:80%;
-		width:23%;
-		background:$blockColorGreen
+		width:18%;
+		background:$blockColorGreen;
+		box-shadow: 0 0 8px rgba(0,0,0,0.5);
 	}
 	&__content{
-		width:75%;
+		width:80%;
 		height:100%;
 		
 	}
@@ -123,12 +125,41 @@ header{
 		width:100%;
 		height:10%;
 		margin-bottom:15px;
-		background:$blockColorGreen
+		background:$blockColorGreen;
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+		box-shadow: 0 0 8px rgba(0,0,0,0.5);
 	}
 	&__general{
 		height:85%;
 		width:100%;
-		background:$blockColorGreen
+		background:$blockColorGreen;
+		box-shadow: 0 0 8px rgba(0,0,0,0.5);
+	}
+	&__title{
+		margin-top:5%;
+	}
+	&__button{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		width:140px;
+		height:40px;
+		background:$elements;
+		color:white;
+		font-family:$staticText;
+		border-radius:8px;
+		&:hover{
+			box-shadow: 0 0 10px rgba($elements,100);
+		}
+	}
+	&__p{
+		color:$Dark;
+		font-family:$staticText;
+	}
+	&__title{
+		font-family:$staticText;
 	}
 }
 .general{

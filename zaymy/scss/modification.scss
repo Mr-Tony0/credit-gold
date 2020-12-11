@@ -21,6 +21,11 @@
 	font-size:15px;
 	color:$elements;
 }
+.first{
+	//color:$elements;
+	font-size:30px;
+	font-family:$textMenu;
+}
 @media screen and (min-width: 320px) and (max-width: 750px){
 	.desktop{
 		display:none;
