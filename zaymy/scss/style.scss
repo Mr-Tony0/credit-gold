@@ -133,7 +133,6 @@ header{
 		box-shadow: 0 0 8px rgba(0,0,0,0.5);
 	}
 	&__general{
-		height:85%;
 		width:100%;
 		background:$blockColorGreen;
 		box-shadow: 0 0 8px rgba(0,0,0,0.5);
@@ -177,6 +176,10 @@ header{
 		justify-content:center;
 		font-family:$staticText;
 	}
+	&__pElement{
+		font-size:20px;
+		font-weight:bold;
+	}
 }
 .name{
 	height:50px;
@@ -190,6 +193,45 @@ header{
 	}
 	&__p{
 		font-family:$staticText;
+		font-size:16px;
+	}
+}
+.recommendations{
+	height:350px;
+	width:100%;
+	text-align:center;
+	&__block{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		width:100%;
+	}
+	&__element{
+		display:flex;
+		height:260px;
+		width:31%;
+		background:$blockColorGreen;
+		box-shadow: 0 0 8px rgba(0,0,0,0.5);
+		align-items: center;
+		justify-content: space-around;
+		font-family:$staticText;
+	}
+	&__img{
+		width:46%;
+		height:50%;
+	}
+	&__button{
+		height: 25px;
+		width: 120px;
+		background: transparent;
+		margin: 0 auto;
+		border-radius: 20px;
+		border: 2px solid #64baf6;
+		color: #64baf6;
+		font-family: arial;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 .general{
@@ -365,6 +407,7 @@ header{
 	height:50px;
 	width:100%;
 	box-shadow: 0 0 20px rgba(black, 0.5);
+	margin-top:500px;
 	&__center{
 		margin:0 auto;
 		width:80%;
