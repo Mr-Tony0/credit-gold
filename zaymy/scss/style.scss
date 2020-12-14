@@ -203,7 +203,7 @@ header{
 	}
 }
 .recommendations{
-	height:350px;
+	height:400px;
 	width:100%;
 	text-align:center;
 	&__block{
@@ -211,16 +211,19 @@ header{
 		justify-content:space-between;
 		align-items:center;
 		width:100%;
+		overflow-x: auto;
 	}
 	&__element{
 		display:flex;
-		height:260px;
+		height:240px;
 		width:31%;
+		min-width:317px;
 		background:$blockColorGreen;
 		box-shadow: 0 0 8px rgba(0,0,0,0.5);
 		align-items: center;
 		justify-content: space-around;
 		font-family:$staticText;
+		margin:26px;
 		&:hover{
 			box-shadow: 0 0 30px rgba($elements, 0.5);;
 		}
@@ -245,6 +248,12 @@ header{
 			background:$elements;
 			color:$Light;
 		}
+	}
+	&__title{
+		font-size:18px;
+	}
+	&__p{
+		font-size:16px;
 	}
 }
 .general{
@@ -578,6 +587,9 @@ header{
 			font-size:14px;
 		}
 	}
+	.footer{
+		margin-top:250px;
+	}
 }
 @media screen and (min-width: 600px) and (max-width: 1000px){
 	.headerCenter{
@@ -708,6 +720,9 @@ header{
 			font-size:12px;
 		}
 	}
+	.footer{
+		margin-top:270px;
+	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 750px){
@@ -824,6 +839,9 @@ header{
 			background:$Light;
 			box-shadow: 0 0 0px rgba(0,0,0,0.0);
 		}
+	}
+	.footer{
+		margin-top:1090px;
 	}
 }
 
@@ -1086,6 +1104,22 @@ header{
 			width:40%;
 		}
 	}
+	.recommendations{
+		&__element{
+			min-width:250px;
+			height:190px;
+		}
+		&__title{
+			font-size:14px;
+		}
+		&__p{
+			font-size:12px;
+		}
+		&__button{
+			height:22px;
+			width:100px;
+		}
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 500px){
 	
@@ -1100,5 +1134,20 @@ header{
 			width:20px;
 		}
 	}
-	
+	.recommendations{
+		&__element{
+			min-width:250px;
+			height:190px;
+		}
+		&__title{
+			font-size:14px;
+		}
+		&__p{
+			font-size:12px;
+		}
+		&__button{
+			height:22px;
+			width:100px;
+		}
+	}
 }
