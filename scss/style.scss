@@ -296,7 +296,36 @@ header{
 	padding-top:20px;
 }
 
-
+.error{
+	height:980px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	&__block{
+		height:50%;
+		width:100%;
+		text-align:center;
+	}
+	&__title{
+		font-size:28px;
+		color:$elements;
+		font-family:$staticText;
+	}
+	&__button{
+		height: 50px;
+		width: 190px;
+		background: #64baf6;
+		color: #fff;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 18px;
+		font-family: arial;
+		border-radius: 5px;
+	}
+}
 .nameSection{
 	&__line{
 		@include line;
@@ -526,6 +555,7 @@ header{
 		}
 		//width:100%;
 	}
+	
 }
 @media screen and (min-width: 500px) and (max-width: 600px){
 	
@@ -762,5 +792,7 @@ header{
 			width:20px;
 		}
 	}
-	
+	.error{
+		height:700px;
+	}
 }

@@ -1,0 +1,31 @@
+@import 'color.scss';
+
+@font-face {
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand.ttf);
+}
+@font-face {
+	font-family: Montserrat; /* Гарнитура шрифта */
+	src: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */
+}
+
+$bigText : Quicksand;
+$staticText : arial;
+$textMenu : impact;
+
+a{
+	text-decoration:none;
+}
+h2{
+	
+	font-size:30px;
+}
+
+h3{
+	
+	font-size:20px;
+}
+p{
+	
+	font-size:18px;
+}

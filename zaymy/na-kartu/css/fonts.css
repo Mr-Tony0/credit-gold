@@ -1,1 +1,28 @@
-@font-face{font-family:Quicksand;src:url(../fonts/Quicksand.ttf)}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat.ttf)}a{text-decoration:none}h2{font-size:30px}h3{font-size:20px}p{font-size:18px}
+@charset "UTF-8";
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  /* Гарнитура шрифта */
+  src: url(../fonts/Montserrat.ttf);
+  /* Путь к файлу со шрифтом */
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}

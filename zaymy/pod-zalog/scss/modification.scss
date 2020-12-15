@@ -1,0 +1,97 @@
+@import 'color.scss';
+@import 'fonts.scss';
+@import 'mixins.scss';
+
+.mobile{
+	display:none;
+	justify-content:flex-end;
+	margin-top:5px;
+}
+.desktop{
+	display:flex;
+}
+.none{
+	display:none;
+}
+.block{
+	display:block
+}
+.color{
+	background:$elements;
+}
+.block_center{
+	display:flex;
+	align-items:center;
+}
+.time{
+	font-size:15px;
+	color:$elements;
+}
+.first{
+	//color:$elements;
+	font-size:30px;
+	font-family:$textMenu;
+}
+.getButton{
+	background:transparent;
+	color:$elements;
+	border:2px solid $elements;
+	width:50%;
+	&:hover{
+		background:$elements;
+		color:$Light;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:flex;
+	}
+	.block{
+		display:none;
+	}
+	.getButton{
+		width:70%;
+		height:30px;
+	}
+	.none{
+		display:flex;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 400px){
+	.time{
+		font-size:12px;
+		color:$elements;
+	}
+	.first{
+		font-size:18px;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 500px){
+	.first{
+		font-size:20px;
+	}
+}
+@media screen and (min-width: 500px) and (max-width: 600px){
+	.first{
+		font-size:26px;
+	}
+}
+@media screen and (min-width: 750px) and (max-width: 1100px){
+	.getButton{
+		width:70%;
+	}
+}
+@media screen and (min-width: 750px) and (max-width: 850px){
+	.getButton{
+		height:30px;
+		font-size:14px;
+	}
+}
+@media screen and (min-width: 750px) and (max-width: 950px){
+	.first{
+		font-size:24px;
+	}
+}
