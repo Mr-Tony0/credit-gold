@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -89,97 +90,56 @@
 		</div>
 		<div class="top">
 			<div class="top__block">
-				<div class="top__element">
-					<img class="top__img" src="./img/dengiSrazu.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
-				<div class="top__element">
-					<img class="top__img" src="./img/eCapusta.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
-				<div class="top__element">
-					<img class="top__img" src="./img/fleshMoney.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
-				<div class="top__element">
-					<img class="top__img" src="./img/vost.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
+				<?php
+				$conect = mysqli_connect('localhost','root','','credit-gold');
+				$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE id>0 and id<5 LIMIT 4");
+					while ($result_elements  = mysqli_fetch_array($elements)){	
+						echo 
+						'<div class="top__element">
+							<img class="top__img" src="'.$result_elements['img'].'">
+							<div class="top__text">
+								<h4 class="top__titleText">'.$result_elements['name'].'</h4>
+								<p class="top__p">Срок: от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].'</p>
+								<p class="top__p">Сумма: до '.$result_elements['sum'].'</p>
+								<p class="top__p">Процент: '.$result_elements['procent'].'% сутки</p>
+								<a class="top__button" href="'.$result_elements['link'].'">Оформить</a>
+							</div>
+						</div>';
+						
+					}
+			
+			
+			
+			
+				?>
+				
 				
 			</div>
 			<div class="top__block">
-				<div class="top__element">
-					<img class="top__img" src="./img/vost.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
-				<div class="top__element">
-					<img class="top__img" src="./img/vost.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
-				<div class="top__element">
-					<img class="top__img" src="./img/vost.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
-				<div class="top__element">
-					<img class="top__img" src="./img/vost.png">
-					<div class="top__text">
-						<h4 class="top__titleText">Бытро-деньги</h4>
-						<p class="top__p">Срок: 12 лет</p>
-						<p class="top__p">Сумма: до 300 рублей</p>
-						<p class="top__p">Процент: 1% сутки</p>
-						<p class="top__p">Возвраст: от 10 лет</p>
-						<div class="top__button">Оформить</div>
-					</div>
-				</div>
+				
+				<?php
+				$conect = mysqli_connect('localhost','root','','credit-gold');
+				$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE id>4 and id<9 LIMIT 4");
+					while ($result_elements  = mysqli_fetch_array($elements)){	
+						echo 
+						'<div class="top__element">
+							<img class="top__img" src="'.$result_elements['img'].'">
+							<div class="top__text">
+								<h4 class="top__titleText">'.$result_elements['name'].'</h4>
+								<p class="top__p">Срок: от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].'</p>
+								<p class="top__p">Сумма: до '.$result_elements['sum'].'</p>
+								<p class="top__p">Процент: '.$result_elements['procent'].'% сутки</p>
+								<a class="top__button" href="'.$result_elements['link'].'">Оформить</a>
+							</div>
+						</div>';
+						
+					}
+			
+			
+			
+			
+				?>
+				
 				
 			</div>
 		</div>
