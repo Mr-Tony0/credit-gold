@@ -207,7 +207,7 @@
 						</div>
 						<div class="list__row">
 							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
+								<img class="list__img" src="/img/dengiSrazu.png">
 							</div>
 							<div class="list__element">
 								<p class="list__pElement">1%</p>
