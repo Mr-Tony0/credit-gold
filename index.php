@@ -96,7 +96,7 @@
 					while ($result_elements  = mysqli_fetch_array($elements)){	
 						echo 
 						'<div class="top__element">
-							<img class="top__img" src="'.$result_elements['img'].'">
+							<img class="top__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
 							<div class="top__text">
 								<h4 class="top__titleText">'.$result_elements['name'].'</h4>
 								<p class="top__p">Срок: от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].'</p>
@@ -123,7 +123,7 @@
 					while ($result_elements  = mysqli_fetch_array($elements)){	
 						echo 
 						'<div class="top__element">
-							<img class="top__img" src="'.$result_elements['img'].'">
+							<img class="top__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
 							<div class="top__text">
 								<h4 class="top__titleText">'.$result_elements['name'].'</h4>
 								<p class="top__p">Срок: от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].'</p>

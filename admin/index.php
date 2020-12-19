@@ -30,7 +30,7 @@ if (isset($_POST['submit'])){
 	$name =  mysqli_real_escape_string($conect, trim($_POST['name']));
 	$link = mysqli_real_escape_string($conect, trim($_POST['link']));
 	$procent = mysqli_real_escape_string($conect, trim($_POST['procent']));
-	$loadImg = $uploadfile1;
+	$loadImg = str_replace('.jpg', '', $uploadfile1);
 	$sum = mysqli_real_escape_string($conect, trim($_POST['sum']));
 	$srok_ot = mysqli_real_escape_string($conect, trim($_POST['srok_ot']));
 	$srok_do = mysqli_real_escape_string($conect, trim($_POST['srok_do']));
@@ -74,7 +74,7 @@ if (isset($_POST['submit'])){
 		$query ="SELECT * FROM `zaymy` WHERE name = '$name'";
 		$data = mysqli_query($conect, $query);
 		if(mysqli_num_rows($data) == 0 and $addImg == 1 ){
-			$query ="INSERT INTO`zaymy`(name, img, link, procent, sum, term_ot, term_do, na_kartu, na_kartu_bezOtkaza, na_kartu_kruglosut, na_kartu_bezProcentov, na_kartu_srocno, na_kartu_bystro, na_kartu_maestro, na_kartu_s18, na_kartu_s20, na_kartu_bezKomisii, na_kartu_za5Minut, na_kartu_novie, na_kartu_bezZvonkovOperatora, na_kartu_mir, na_kartu_sberbank, na_kartu_bezProverok, na_kartu_mgnoveno, na_kartu_momentalno, na_kartu_sPloxoyKreditnoyIstoriey, nalichnimi, na_qiwi, na_qiwi_bezKarti, na_qiwi_bezPasporta, na_qiwi_poPasportu, na_qiwi_bistro, na_qiwi_bezProverok, na_qiwi_sPloxoyKreditnoyIstoriey, na_yandex, pod_zalog, pod_zalog_pts, pod_zalog_nedvijimosti, pod_zalog_kvartiri, pod_zalog_avto, luchie, do_zp) VALUES('$name', '$loadImg', '$link', '$procent', '$sum', '$srok_ot', '$srok_do', '$kart', '$kart_otkaz', '$kart_kruglos', '$kart_procent', '$kart_srocno', '$kart_bistro', '$kart_maestro', '$kart_18',' $kart_20', '$kart_komisii', '$kart_5minut', '$kart_new', '$kart_operator', '$kart_mir', '$kart_sber', '$kart_proverok', '$kart_mgnoveno', '$kart_moment', '$qiwi_kredit_history', '$nal', '$qiwi', '$qiwi_bez_karty', '$qiwi_bez_pasport','$qiwi_po_pasportu', '$qiwi_bystro', '$qiwi_proverok', '$qiwi_kredit_history', '$yandex', '$zalog', '$zalog_pts', '$zalog_nedvij', '$zalog_kwartir', '$zalog_avto', '$luchie', '$zp')";
+			$query ="INSERT INTO`zaymy`(name, img, link, procent, sum, term_ot, term_do, na_kartu, na_kartu_bezOtkaza, na_kartu_kruglosut, na_kartu_bezProcentov, na_kartu_srocno, na_kartu_bystro, na_kartu_maestro, na_kartu_s18, na_kartu_s20, na_kartu_bezKomisii, na_kartu_za5Minut, na_kartu_novie, na_kartu_bezZvonkovOperatora, na_kartu_mir, na_kartu_sberbank, na_kartu_bezProverok, na_kartu_mgnoveno, na_kartu_momentalno, na_kartu_sPloxoyKreditnoyIstoriey, nalichnimi, na_qiwi, na_qiwi_bezKarti, na_qiwi_bezPasporta, na_qiwi_poPasportu, na_qiwi_bistro, na_qiwi_bezProverok, na_qiwi_sPloxoyKreditnoyIstoriey, na_yandex, pod_zalog, pod_zalog_pts, pod_zalog_nedvijimosti, pod_zalog_kvartiri, pod_zalog_avto, luchie, do_zp) VALUES('$name', '$loadImg', '$link', '$procent', '$sum', '$srok_ot', '$srok_do', '$kart', '$kart_otkaz', '$kart_kruglos', '$kart_procent', '$kart_srocno', '$kart_bistro', '$kart_maestro', '$kart_18',' $kart_20', '$kart_komisii', '$kart_5minut', '$kart_new', '$kart_operator', '$kart_mir', '$kart_sber', '$kart_proverok', '$kart_mgnoveno', '$kart_moment', '$kart_kredit_history', '$nal', '$qiwi', '$qiwi_bez_karty', '$qiwi_bez_pasport','$qiwi_po_pasportu', '$qiwi_bystro', '$qiwi_proverok', '$qiwi_kredit_history', '$yandex', '$zalog', '$zalog_pts', '$zalog_nedvij', '$zalog_kwartir', '$zalog_avto', '$luchie', '$zp')";
 			mysqli_query($conect, $query);
 			echo'<p style="background:green; color:white; margin:0;">Организация успешно добавлена!</p>';
 			mysqli_close($conect);

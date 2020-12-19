@@ -113,287 +113,55 @@
 						</div>
 					</div>
 					<div class="list__catalog block">
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-							
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/fleshMoney.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/vost.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/vost.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
-						<div class="list__row">
-							<div class="list__element">
-								<img class="list__img" src="./img/dengiSrazu.png">
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">1%</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">до 30 000</p>
-							</div>
-							<div class="list__element">
-								<p class="list__pElement">от 5 до 30 дней</p>
-							</div>
-							<div class="list__element">
-								<a href = "#"class="list__button getButton">оформить</a>
-							</div>
-						</div>
+
+						<?php
+						$conect = mysqli_connect('localhost','root','','credit-gold');
+						$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE `na_kartu_bezProverok` = 'on'");
+							while ($result_elements  = mysqli_fetch_array($elements)){	
+								echo 
+								'<div class="list__row">
+									<div class="list__element">
+										<img class="list__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
+									</div>
+									<div class="list__element">
+										<p class="list__pElement">'.$result_elements['procent'].'%</p>
+									</div>
+									<div class="list__element">
+										<p class="list__pElement">до '.$result_elements['sum'].'</p>
+									</div>
+									<div class="list__element">
+										<p class="list__pElement">от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].' дней</p>
+									</div>
+									<div class="list__element">
+										<a href = "'.$result_elements['link'].'"class="list__button getButton">оформить</a>
+									</div>
+									
+								</div>';
+								
+							}
+						?>
 					</div>
-					
-					
 					<div class="top none">
 						<div class="top__block">
-							<div class="top__element">
-								<img class="top__img" src="./img/dengiSrazu.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
-							<div class="top__element">
-								<img class="top__img" src="./img/eCapusta.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
-							<div class="top__element">
-								<img class="top__img" src="./img/fleshMoney.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
-							<div class="top__element">
-								<img class="top__img" src="./img/vost.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
-							<div class="top__element">
-								<img class="top__img" src="./img/vost.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
-							<div class="top__element">
-								<img class="top__img" src="./img/vost.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
-							<div class="top__element">
-								<img class="top__img" src="./img/vost.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
-							<div class="top__element">
-								<img class="top__img" src="./img/vost.png">
-								<div class="top__text">
-									<h4 class="top__titleText">Бытро-деньги</h4>
-									<p class="top__p">Срок: 12 лет</p>
-									<p class="top__p">Сумма: до 300 рублей</p>
-									<p class="top__p">Процент: 1% сутки</p>
-									<p class="top__p">Возвраст: от 10 лет</p>
-									<a href="#" class="top__button">Оформить</a>
-								</div>
-							</div>
+							<?php
+								$conect = mysqli_connect('localhost','root','','credit-gold');
+								$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE `na_kartu_bezProverok` = 'on'");
+									while ($result_elements  = mysqli_fetch_array($elements)){	
+										echo 
+										'<div class="top__element">
+											<img class="top__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
+											<div class="top__text">
+												<h4 class="top__titleText">'.$result_elements['name'].'</h4>
+												<p class="top__p">Срок: от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].'</p>
+												<p class="top__p">Сумма: до '.$result_elements['sum'].'</p>
+												<p class="top__p">Процент: '.$result_elements['procent'].'% сутки</p>
+												<a class="top__button" href="'.$result_elements['link'].'">Оформить</a>
+											</div>
+										</div>';
+										
+									}
+								?>
+
 						</div>
 					</div>
 			</div>
