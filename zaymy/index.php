@@ -80,13 +80,13 @@
 							<p class="name__p">Мфо</p>
 						</div>
 						<div class="name__element">
-							<p class="name__p">Дневная ставка</p>
+							<p class="name__p"><a href="?sort=procent" style="color:black;">Дневная ставка</a></p>
 						</div>
 						<div class="name__element">
-							<p class="name__p">Сумма</p>
+							<p class="name__p"><a href="?sort=sum" style="color:black;">Сумма</a></p>
 						</div>
 						<div class="name__element">
-							<p class="name__p">Срок</p>
+							<p class="name__p"><a href="?sort=srok" style="color:black;">Срок</a></p>
 						</div>
 						<div class="name__element">
 							<p class="name__p">Заявки</p>
@@ -96,6 +96,37 @@
 					
 					<?php
 					$conect = mysqli_connect('localhost','root','','credit-gold');
+					if ($_GET["sort"] == "procent"){
+						$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` ORDER BY `procent`");
+						while ($result_elements  = mysqli_fetch_array($elements)){	
+							echo 
+							'<div class="list__row">
+								<div class="list__element">
+									<img class="list__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">'.$result_elements['procent'].'%</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">до '.$result_elements['sum'].'</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].' дней</p>
+								</div>
+								<div class="list__element">
+									<a href = "'.$result_elements['link'].'"class="list__button getButton">оформить</a>
+								</div>
+								
+							</div>';
+							
+						}
+					}
+					
+					
+					
+					
+					
+					
 					$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy`");
 						while ($result_elements  = mysqli_fetch_array($elements)){	
 							echo 

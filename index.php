@@ -92,7 +92,7 @@
 			<div class="top__block">
 				<?php
 				$conect = mysqli_connect('localhost','root','','credit-gold');
-				$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE id>0 and id<5 LIMIT 4");
+				$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE id>17 and id<22 ORDER BY `pay` ASC  LIMIT 4");
 					while ($result_elements  = mysqli_fetch_array($elements)){	
 						echo 
 						'<div class="top__element">
@@ -119,7 +119,7 @@
 				
 				<?php
 				$conect = mysqli_connect('localhost','root','','credit-gold');
-				$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE id>4 and id<9 LIMIT 4");
+				$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE id>21 and id<26 LIMIT 4");
 					while ($result_elements  = mysqli_fetch_array($elements)){	
 						echo 
 						'<div class="top__element">

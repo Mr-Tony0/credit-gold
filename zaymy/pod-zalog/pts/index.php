@@ -18,7 +18,7 @@
 			<div class="headerCenter__menu desktop">
 				<ul class="headerCenter__ul">
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Оформить кредит</a></li>
-					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy">Оформить займ</a></li>
+					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/">Оформить займ</a></li>
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Дебетовые карты</a></li>
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Открыть счет для бизнеса</a></li>
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Статьи</a></li>
