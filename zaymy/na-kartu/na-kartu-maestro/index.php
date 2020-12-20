@@ -100,22 +100,23 @@
 							<p class="name__p">Мфо</p>
 						</div>
 						<div class="name__element">
-							<p class="name__p">Дневная ставка</p>
+							<p class="name__p"><a href="?sort=procent" style="color:black;" id="procent"><?php $conect = mysqli_connect('localhost','root','','credit-gold'); if($_GET["sort"] == "procent"){echo 'Дневная ставка ⇊';}else{echo'Дневная ставка';} ?></a></p>
 						</div>
 						<div class="name__element">
-							<p class="name__p">Сумма</p>
+							<p class="name__p"><a href="?sort=sum" style="color:black;"id="sum"><?php $conect = mysqli_connect('localhost','root','','credit-gold'); if($_GET["sort"] == "sum"){echo 'Сумма ⇊';}else{echo'Сумма';} ?></a></p>
 						</div>
 						<div class="name__element">
-							<p class="name__p">Срок</p>
+							<p class="name__p"><a href="?sort=srok" style="color:black;"id="srok"><?php $conect = mysqli_connect('localhost','root','','credit-gold'); if($_GET["sort"] == "srok"){echo 'Срок ⇊';}else{echo'Срок';} ?></a></p>
 						</div>
 						<div class="name__element">
 							<p class="name__p">Заявки</p>
 						</div>
 					</div>
 					<div class="list__catalog block">
-
-						<?php
-						$conect = mysqli_connect('localhost','root','','credit-gold');
+					
+					<?php
+					$conect = mysqli_connect('localhost','root','','credit-gold');
+					if($_GET["sort"] == ""){
 						$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE `na_kartu_maestro` = 'on'");
 							while ($result_elements  = mysqli_fetch_array($elements)){	
 								echo 
@@ -139,7 +140,87 @@
 								</div>';
 								
 							}
-						?>
+					}else{
+					if ($_GET["sort"] == "procent"){
+						$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE `na_kartu_maestro` = 'on' ORDER BY `procent` ASC");
+						while ($result_elements  = mysqli_fetch_array($elements)){	
+							echo 
+							'<div class="list__row">
+								<div class="list__element">
+									<img class="list__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">'.$result_elements['procent'].'%</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">до '.$result_elements['sum'].'</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].' дней</p>
+								</div>
+								<div class="list__element">
+									<a href = "'.$result_elements['link'].'"class="list__button getButton">оформить</a>
+								</div>
+								
+							</div>';
+							
+						}
+					}
+					if($_GET["sort"] == "sum"){
+						$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE `na_kartu_maestro` = 'on' ORDER BY `sum` ASC");
+						while ($result_elements  = mysqli_fetch_array($elements)){	
+							echo 
+							'<div class="list__row">
+								<div class="list__element">
+									<img class="list__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">'.$result_elements['procent'].'%</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">до '.$result_elements['sum'].'</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].' дней</p>
+								</div>
+								<div class="list__element">
+									<a href = "'.$result_elements['link'].'"class="list__button getButton">оформить</a>
+								</div>
+								
+							</div>';
+							
+						}
+					}
+					if($_GET["sort"] == "srok"){
+						$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE `na_kartu_maestro` = 'on' ORDER BY `term_ot` ASC");
+						while ($result_elements  = mysqli_fetch_array($elements)){	
+							echo 
+							'<div class="list__row">
+								<div class="list__element">
+									<img class="list__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">'.$result_elements['procent'].'%</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">до '.$result_elements['sum'].'</p>
+								</div>
+								<div class="list__element">
+									<p class="list__pElement">от '.$result_elements['term_ot'].' до '.$result_elements['term_do'].' дней</p>
+								</div>
+								<div class="list__element">
+									<a href = "'.$result_elements['link'].'"class="list__button getButton">оформить</a>
+								</div>
+								
+							</div>';
+							
+						}
+					}
+					
+					}	
+						
+					
+					?>
 					</div>
 					<div class="top none">
 						<div class="top__block">
@@ -173,41 +254,29 @@
 						</center>
 					</div>
 					<div class="recommendations__block">
-						<div class="recommendations__element">
-							<img class="recommendations__img" src="./img/dengiSrazu.png">
-							<div class="recommendations__text">
-								<h3 class="recommendations__title">Быстро деньги</h3>
-								<p class="recommendations__p">Срок: 12 лет</p>
-								<p class="recommendations__p">Сумма: до 300 рублей</p>
-								<p class="recommendations__p">Процент: 1% сутки</p>
-								<p class="recommendations__p">Возвраст: от 10 лет</p>
-								<a href="#" class="recommendations__button">Оформить</a>
-							</div>
-						</div>
-						<div class="recommendations__element">
-							<img class="recommendations__img" src="./img/dengiSrazu.png">
-							<div class="recommendations__text">
-								<h3 class="recommendations__title">Быстро деньги</h3>
-								<p class="recommendations__p">Срок: 12 лет</p>
-								<p class="recommendations__p">Сумма: до 300 рублей</p>
-								<p class="recommendations__p">Процент: 1% сутки</p>
-								<p class="recommendations__p">Возвраст: от 10 лет</p>
-								<a href="#" class="recommendations__button">Оформить</a>
-							</div>
-						</div>
-						<div class="recommendations__element">
-							<img class="recommendations__img" src="./img/dengiSrazu.png">
-							<div class="recommendations__text">
-								<h3 class="recommendations__title">Быстро деньги</h3>
-								<p class="recommendations__p">Срок: 12 лет</p>
-								<p class="recommendations__p">Сумма: до 300 рублей</p>
-								<p class="recommendations__p">Процент: 1% сутки</p>
-								<p class="recommendations__p">Возвраст: от 10 лет</p>
-								<a href="#" class="recommendations__button">Оформить</a>
-							</div>
-						</div>
+						<?php
+							$conect = mysqli_connect('localhost','root','','credit-gold');
+							$elements = mysqli_query($conect,"SELECT `name`,`img`,`term_ot`,`term_do`, `sum`, `procent`, `link` FROM `zaymy` WHERE `na_kartu_maestro` = 'on' ORDER BY `pay` DESC LIMIT 3");
+									while ($result_elements  = mysqli_fetch_array($elements)){	
+										echo 
+										'<div class="recommendations__element">
+											<img class="recommendations__img" src="'.str_replace('.', '', $result_elements['img']).'.jpg">
+											<div class="recommendations__text">
+												<h3 class="recommendations__title">'.$result_elements['name'].'</h3>
+												<p class="recommendations__p">Срок: '.$result_elements['term_do'].'</p>
+												<p class="recommendations__p">Сумма: до '.$result_elements['sum'].' рублей</p>
+												<p class="recommendations__p">Процент: '.$result_elements['procent'].'% сутки</p>
+												<a href="'.$result_elements['link'].'" class="recommendations__button">Оформить</a>
+											</div>
+										</div>';
+										
+									}
+
+						?>
+						
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	
