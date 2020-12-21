@@ -17,10 +17,10 @@
 			</div>
 			<div class="headerCenter__menu desktop">
 				<ul class="headerCenter__ul">
-					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Оформить кредит</a></li>
-					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/">Оформить займ</a></li>
-					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Дебетовые карты</a></li>
-					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Открыть счет для бизнеса</a></li>
+					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/">Все займы</a></li>
+					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/na-kartu/">Займы на карту</a></li>
+					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/na-qiwi/">Займы на киви кошелек</a></li>					
+					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/pod-zalog/">Займ под залог</a></li>
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Статьи</a></li>
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/">О нас</a></li>
 				</ul>
@@ -37,10 +37,10 @@
 	</header>
 	<nav class="navigation">
 		<ul class="navigation__ul">
-			<li class="navigation__li"><a class="navigation__link" href="/error.html">Оформить кредит</a></li>
-			<li class="navigation__li"><a class="navigation__link" href="/zaymy">Оформить займ</a></li>
-			<li class="navigation__li"><a class="navigation__link" href="/error.html">Дебетовые карты</a></li>
-			<li class="navigation__li"><a class="navigation__link" href="/error.html">Открыть счет для бизнеса</a></li>
+			<li class="navigation__li"><a class="navigation__link" href="/zaymy/">Все займы</a></li>
+			<li class="navigation__li"><a class="navigation__link" href="/zaymy/na-kartu/">Займы на карту</a></li>
+			<li class="navigation__li"><a class="navigation__link" href="/zaymy/na-qiwi/">Займы на киви кошелек</a></li>
+			<li class="navigation__li"><a class="navigation__link" href="/zaymy/pod-zalog/">Займ под залог</a></li>
 			<li class="navigation__li"><a class="navigation__link" href="/error.html">Статьи</a></li>
 			<li class="navigation__li"><a class="navigation__link" href="/">О нас</a></li>
 		</ul>
