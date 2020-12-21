@@ -70,7 +70,7 @@ if (isset($_POST['submit'])){
 	$luchie = mysqli_real_escape_string($conect, trim($_POST['luchie']));
 	$zp = mysqli_real_escape_string($conect, trim($_POST['zp']));
 	$pay = mysqli_real_escape_string($conect, trim($_POST['pay']));
-	if(!empty($name) and !empty($link) and !empty($procent) and !empty($loadImg) and !empty($sum) and !empty($srok_ot) and !empty($srok_do) and !empty($pay)){
+	if(!empty($name) and !empty($link) and !empty($loadImg) and !empty($sum) and !empty($srok_ot) and !empty($srok_do) and !empty($pay)){
 		$query ="SELECT * FROM `zaymy` WHERE name = '$name'";
 		$data = mysqli_query($conect, $query);
 		if(mysqli_num_rows($data) == 0 and $addImg == 1 ){
@@ -192,7 +192,7 @@ if (isset($_POST['submit'])){
 		</ul>
 	<p>Установите картинку</p>
 	<input type="file" name="loadImg" id="imgFile"/>
-	<input placeholder="Дневная ставка" type="number" name="procent"/>
+	<input placeholder="Дневная ставка" type="float" name="procent"/>
 	<input placeholder="Сумма" type="number" name="sum"/>
 	<p>Срок</p>
 	<div class="row">
@@ -271,7 +271,7 @@ if (isset($_POST['submit'])){
 		</ul>
 	<p>Установите картинку</p>
 	<input type="file" name="loadImg" id="imgFile"/>
-	<input placeholder="Дневная ставка" type="number" name="procent"/>
+	<input placeholder="Дневная ставка" type="float" name="procent"/>
 	<input placeholder="Сумма" type="number" name="sum"/>
 	<p>Срок</p>
 	<div class="row">

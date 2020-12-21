@@ -66,7 +66,7 @@
 				<h2 class="list__title">Условия</h2>
 				<a href="/zaymy/pod-zalog/pts/"><p class="list__p">Под залог птс</p></a>
 				<a href="/zaymy/pod-zalog/nedvizhimosti/"><p class="list__p">Под залог недвижимости</p></a>
-				<a href="/zaymy/pod-zalog/kvartiri/"><p class="list__p">Под заолг квартиры</p></a>
+				<a href="/zaymy/pod-zalog/kvartiri/"><p class="list__p">Под залог квартиры</p></a>
 				<a href="/zaymy/pod-zalog/avto/"><p class="list__p active">Под залог авто</p></a>
 			</aside>
 			<div class="list__content">

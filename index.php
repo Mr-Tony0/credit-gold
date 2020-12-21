@@ -23,7 +23,7 @@
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/na-qiwi/">Займы на киви кошелек</a></li>					
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/zaymy/pod-zalog/">Займ под залог</a></li>
 					<li class="headerCenter__li"><a class="headerCenter__link" href="/error.html">Статьи</a></li>
-					<li class="headerCenter__li"><a class="headerCenter__link" href="#">О нас</a></li>
+					<li class="headerCenter__li"><a class="headerCenter__link" href="#" id="about">О нас</a></li>
 				</ul>
 			</div>
 				
@@ -43,7 +43,7 @@
 			<li class="navigation__li"><a class="navigation__link" href="/zaymy/na-qiwi/">Займы на киви кошелек</a></li>
 			<li class="navigation__li"><a class="navigation__link" href="/zaymy/pod-zalog/">Займ под залог</a></li>
 			<li class="navigation__li"><a class="navigation__link" href="/error.html">Статьи</a></li>
-			<li class="navigation__li"><a class="navigation__link" href="#">О нас</a></li>
+			<li class="navigation__li"><a class="navigation__link" href="#" id="aboutMobile">О нас</a></li>
 		</ul>
 	</nav>
 	<section>
@@ -156,35 +156,35 @@
 			<div class="news__row">
 				<a href="/error.html" class="news__element">
 					<img class="news__img" src="./img/nalogi.png">
-					<p class="news__p">как не платить налоги в 2076 году</p>
-					<p class="news__p time">03.12.2020</p>
+					<p class="news__p">Банки начнут передачу в ФНС данных о кошельках</p>
+					<p class="news__p time">23.12.2020</p>
 				</a>
 				<a href="/error.html" class="news__element">
 					<img class="news__img" src="./img/bugalter.png">
-					<p class="news__p">С нового года налоговый кодекс будет упрозднен</p>
-					<p class="news__p time">03.12.2020</p>
+					<p class="news__p">Банк России не стал снижать ставку</p>
+					<p class="news__p time">21.12.2020</p>
 				</a>
 				<a href="/error.html" class="news__element">
 					<img class="news__img" src="./img/gangsters.png">
 					<p class="news__p">Как не стать жертвой мошенников при продаже квартиры</p>
-					<p class="news__p time">03.12.2020</p>
+					<p class="news__p time">20.12.2020</p>
 				</a>
 			</div>
 			<div class="news__row">
 				<a href="/error.html" class="news__element">
 					<img class="news__img" src="./img/storm.png">
 					<p class="news__p">Что ждет бизнес в новом году</p>
-					<p class="news__p time">03.12.2020</p>
+					<p class="news__p time">19.12.2020</p>
 				</a>
 				<a href="/error.html" class="news__element">
 					<img class="news__img" src="./img/zdelka.png">
-					<p class="news__p">Рубль ждет крах! Пора покупать доллары?</p>
-					<p class="news__p time">03.12.2020</p>
+					<p class="news__p">Аналитики оценили чистый отток средств россиян из банков</p>
+					<p class="news__p time">19.12.2020</p>
 				</a>
 				<a href="/error.html" class="news__element">
 					<img class="news__img" src="./img/zp.png">
-					<p class="news__p">Какая будет минимальная зарплата в регионах</p>
-					<p class="news__p time">03.12.2020</p>
+					<p class="news__p">Юрист посоветовала россиянам погасить долги до Нового года</p>
+					<p class="news__p time">18.12.2020</p>
 				</a>
 			</div>
 		</div>
