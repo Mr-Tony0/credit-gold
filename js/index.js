@@ -23,3 +23,13 @@ $('#about').on('click', function(){
 $('#aboutMobile').on('click', function(){
 	$("html,body").animate({scrollTop:5000},500);
 })
+
+calcul.onclick = function(){
+	var sum = document.getElementById('sum').value;;
+	var procent = document.getElementById('procent').value;
+	var srok = document.getElementById('srok').value;
+	var calcul = document.getElementById('calcul').value;
+	var rezult = ((Number.parseInt(sum) / 100) * Number.parseInt(procent)) * Number.parseInt(srok);
+	
+	document.getElementById('rezult').innerHTML += rezult + " руб.";
+}

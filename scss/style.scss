@@ -286,6 +286,49 @@ header{
 		//width:10%;
 	}
 }
+.calc{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	&__general{
+		width:70%;
+		height:400px;
+		margin-top:50px;
+		margin-bottom:50px;
+		background:$elements;
+		text-align:center;
+	}
+	&__block{
+		height:60%;
+		width:100%;
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+	}
+	&__input{
+		height:40px;
+		width:280px;
+	}
+	&__button{
+		height:40px;
+		width:280px;
+		border-radius:10px;
+		border: 1px solid $elements;
+		background:$Light;
+		font-family:$staticText;
+		&:hover{
+			background:$elements;
+			box-shadow:0 0 20px rgba($Light,1.0);
+			color:$Light;
+		}
+	}
+	&__p{
+		color:$Light;
+		font-family:$staticText;
+		font-size:18px;
+	}
+}
 
 .greenBlock{
 	background:$blockColorGreen;

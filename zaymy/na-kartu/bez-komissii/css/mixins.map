@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "mixins.css",
+	"sources": [
+		"../scss/mixins.scss",
+		"../scss/color.scss",
+		"../scss/fonts.scss"
+	],
+	"sourcesContent": [
+		"@import 'color.scss';\r\n@import 'fonts.scss';\r\n\r\n@mixin textBut{\r\n\tfont-size:18px;\t\r\n\tfont-weight:bold;\r\n\tfont-family:$staticText;\r\n}\r\n@mixin butStyleTransparent{\r\n\tmax-height:31.5px;\r\n\tmin-width:75px;\r\n\t//background:transparent;\r\n\t//border:2px solid $purple;\r\n\t//color:$purple;\r\n\tborder-radius:22px;\r\n\t@include textBut;\r\n}\r\n@mixin butStylePurple{\r\n\tmin-width:75px;\r\n\tmax-height:31.5px;\r\n\t//background:linear-gradient(180deg, $purple 0%, #8BA4F9 100%);\r\n\t//border:0px solid $purple;\r\n\t//color:$darkZero;\r\n\tborder-radius:22px;\r\n\t@include textBut;\r\n}\r\n@mixin line{\r\n\theight:10px;\r\n\twidth:120px;\r\n\tbackground:$elements;\r\n\tborder-radius:10px;\r\n}\r\n@mixin imag{\r\n\tbackground-size:100% 100%;\r\n\tbackground-repeat:no-repeat;\r\n\tmargin:0 auto;\r\n}",
+		"$elements: #64baf6;\r\n$Light: #fff;\r\n$Dark: #000;\r\n$blockColorGreen: #e8f9ea;\r\n$blockColorWhite: #F0F3F5;",
+		"@import 'color.scss';\r\n\r\n@font-face {\r\n\tfont-family: Quicksand;\r\n\tsrc: url(../fonts/Quicksand.ttf);\r\n}\r\n@font-face {\r\n\tfont-family: Montserrat; /* Гарнитура шрифта */\r\n\tsrc: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */\r\n}\r\n\r\n$bigText : Quicksand;\r\n$staticText : arial;\r\n$textMenu : impact;\r\n\r\na{\r\n\ttext-decoration:none;\r\n}\r\nh2{\r\n\t\r\n\tfont-size:30px;\r\n}\r\n\r\nh3{\r\n\t\r\n\tfont-size:20px;\r\n}\r\np{\r\n\t\r\n\tfont-size:18px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AEEA,UAAU;EACT,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,2BAA2B;;;AAEjC,UAAU;EACT,WAAW,EAAE,UAAU;EAAE,sBAAsB;EAC/C,GAAG,EAAE,4BAA4B;EAAE,6BAA6B;;;;AAOjE,AAAA,CAAC,CAAA;EACA,eAAe,EAAC,IAAI;CACpB;;;AACD,AAAA,EAAE,CAAA;EAED,SAAS,EAAC,IAAI;CACd;;;AAED,AAAA,EAAE,CAAA;EAED,SAAS,EAAC,IAAI;CACd;;;AACD,AAAA,CAAC,CAAA;EAEA,SAAS,EAAC,IAAI;CACd"
+}

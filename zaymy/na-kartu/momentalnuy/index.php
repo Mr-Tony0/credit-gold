@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>work</title>
 	<meta charset = "utf-8">
+	<title>Получить моментальный займ на карту онлайн, деньги на карту любого банка</title>
+	<meta name="description" content="Ищите подходящий займ для моментального получения денег на банковскую карточку? Мы собрали все предложения онлайн займов для получения денег на карту любого банка"> 
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/modification.css">
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
@@ -279,7 +280,7 @@
 			</div>
 			</div>
 		</div>
-	
+		
 	</section>
 	<footer class="footer">
 		<div class="footer__center">

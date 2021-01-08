@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>work</title>
 	<meta charset = "utf-8">
+	<title>Займы на карту без звонка оператора, онлайн микрозайм. Credit-gold</title>
+	<meta name="description" content="Теперь оформить онлайн займ без звонков оператора стало возможным, наш список микрозаймов поможет найти подходящее предложения"> 
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/modification.css">
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">

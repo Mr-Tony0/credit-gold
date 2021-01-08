@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>work</title>
 	<meta charset = "utf-8">
+	<title>займы онлайн с плохой кредитной историей на карту, микрозаймы с плохой ки</title>
+	<meta name="description" content="Плохая кредитная история по прошлым онлайн займам? Представляем список мфо без проверки ки и с выдачей денег на карту."> 
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/modification.css">
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">

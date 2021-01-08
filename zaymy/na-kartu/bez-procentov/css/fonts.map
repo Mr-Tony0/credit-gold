@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../scss/fonts.scss",
+		"../scss/color.scss"
+	],
+	"sourcesContent": [
+		"@import 'color.scss';\r\n\r\n@font-face {\r\n\tfont-family: Quicksand;\r\n\tsrc: url(../fonts/Quicksand.ttf);\r\n}\r\n@font-face {\r\n\tfont-family: Montserrat; /* Гарнитура шрифта */\r\n\tsrc: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */\r\n}\r\n\r\n$bigText : Quicksand;\r\n$staticText : arial;\r\n$textMenu : impact;\r\n\r\na{\r\n\ttext-decoration:none;\r\n}\r\nh2{\r\n\t\r\n\tfont-size:30px;\r\n}\r\n\r\nh3{\r\n\t\r\n\tfont-size:20px;\r\n}\r\np{\r\n\t\r\n\tfont-size:18px;\r\n}",
+		"$elements: #64baf6;\r\n$Light: #fff;\r\n$Dark: #000;\r\n$blockColorGreen: #e8f9ea;\r\n$blockColorWhite: #F0F3F5;"
+	],
+	"names": [],
+	"mappings": ";AAEA,UAAU;EACT,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,2BAA2B;;;AAEjC,UAAU;EACT,WAAW,EAAE,UAAU;EAAE,sBAAsB;EAC/C,GAAG,EAAE,4BAA4B;EAAE,6BAA6B;;;;AAOjE,AAAA,CAAC,CAAA;EACA,eAAe,EAAC,IAAI;CACpB;;;AACD,AAAA,EAAE,CAAA;EAED,SAAS,EAAC,IAAI;CACd;;;AAED,AAAA,EAAE,CAAA;EAED,SAAS,EAAC,IAAI;CACd;;;AACD,AAAA,CAAC,CAAA;EAEA,SAAS,EAAC,IAAI;CACd"
+}

@@ -186,6 +186,10 @@ header{
 		height:90%;
 		width:90%;
 	}
+	&__ul{
+		color:$Dark;
+		font-family:$staticText;
+	}
 }
 .name{
 	height:50px;

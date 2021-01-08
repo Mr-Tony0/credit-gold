@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "color.css",
+	"sources": [
+		"../scss/color.scss"
+	],
+	"sourcesContent": [
+		"$elements: #64baf6;\r\n$Light: #fff;\r\n$Dark: #000;\r\n$blockColorGreen: #e8f9ea;\r\n$blockColorWhite: #F0F3F5;"
+	],
+	"names": [],
+	"mappings": ""
+}
